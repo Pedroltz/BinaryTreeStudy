@@ -35,4 +35,4 @@ Uma Árvore Binária de Busca (BST) é uma estrutura de dados em que cada nó po
 3. **Executar o Código**: Abra o terminal, navegue até o diretório onde o arquivo foi salvo e execute o seguinte comando:
 
    ```bash
-   python bt.py
+   python binaryTree.py
