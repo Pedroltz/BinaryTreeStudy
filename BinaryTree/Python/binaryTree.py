@@ -33,7 +33,7 @@ def em_ordem(raiz):
         print(raiz.dado, end=" ")
         em_ordem(raiz.direita)
 
-# Função para exibir a árvore visualmente
+# Função para exibir a árvore visualmente - Completamente feito pelo ChatGPT, nem ideia o que fez aqui, mas facilita para ver visualmente.
 def exibir_arvore(raiz):
     def plotar_no(no, x, y, dx):
         if no is not None:
