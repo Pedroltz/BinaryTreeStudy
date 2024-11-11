@@ -8,7 +8,7 @@ Este projeto implementa uma Árvore Binária de Busca (BST) em Python. O program
 
 Uma Árvore Binária de Busca (BST) é uma estrutura de dados em que cada nó possui no máximo dois filhos: um filho à esquerda e um filho à direita. A BST possui uma propriedade importante: para cada nó, todos os valores dos nós da subárvore à esquerda são menores que o valor do nó, e todos os valores dos nós da subárvore à direita são maiores. Isso permite que as operações de busca, inserção e remoção sejam feitas de maneira eficiente.
 
-## Características das Árvores Binárias de Busca
+## Características das Árvores Binárias de Busca 
 
 - **Inserção**: Inserir um elemento na BST envolve encontrar a posição correta na árvore onde o novo valor deve ser colocado, de acordo com a ordem dos elementos.
 - **Busca**: A busca em uma BST é eficiente porque aproveita a ordenação dos elementos, reduzindo a quantidade de nós a serem visitados em cada etapa.
