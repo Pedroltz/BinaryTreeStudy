@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/pedro.tunin/Documents/Pessoal/BinaryTreeStudy/BinaryTree/C",
-      "program": "c:/Users/pedro.tunin/Documents/Pessoal/BinaryTreeStudy/BinaryTree/C/build/Debug/outDebug",
+      "cwd": "c:/Users/pedro.tunin/Documents/Pessoal/BinaryTreeStudy/BinaryTree/C++",
+      "program": "c:/Users/pedro.tunin/Documents/Pessoal/BinaryTreeStudy/BinaryTree/C++/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
