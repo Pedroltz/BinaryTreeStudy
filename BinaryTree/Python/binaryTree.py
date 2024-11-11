@@ -1,3 +1,4 @@
+import random
 import matplotlib.pyplot as plt
 
 # Classe do nó
@@ -214,6 +215,17 @@ def balancear_arvore(raiz):
     # Em uma árvore AVL, a árvore é balanceada durante as inserções e remoções
     print("A árvore AVL está balanceada.")
 
+# Função para inserir de 8 a 15 números aleatórios na árvore
+def inserir_numeros_aleatorios(raiz):
+    quantidade = random.randint(8, 15)  # Define a quantidade de números aleatórios entre 8 e 15
+    numeros = random.sample(range(1, 100), quantidade)  # Gera números únicos entre 1 e 100
+
+    print("Números aleatórios a serem inseridos na árvore:", numeros)
+    for numero in numeros:
+        raiz = inserir(raiz, numero)  # Insere cada número na árvore
+
+    return raiz
+
 # Função principal
 def main():
     raiz = None
@@ -230,7 +242,8 @@ def main():
         print("8. Buscar um elemento")
         print("9. Editar um elemento")
         print("10. Balancear a árvore")
-        print("11. Sair")
+        print("11. Inserir números aleatórios na árvore")
+        print("12. Sair")
         opcao = int(input("Digite a sua opção: "))
 
         if opcao == 1:
@@ -278,10 +291,13 @@ def main():
         elif opcao == 10:
             balancear_arvore(raiz)
         elif opcao == 11:
+            raiz = inserir_numeros_aleatorios(raiz)
+            print("Números aleatórios inseridos na árvore.")
+        elif opcao == 12:
             print("Saindo do programa.")
             break
         else:
-            print("Opção inválida! Por favor, escolha entre 1 e 11.")
+            print("Opção inválida! Por favor, escolha entre 1 e 12.")
 
         input("\nPressione Enter para continuar...")
 

@@ -1,12 +1,12 @@
-# Árvore Binária de Busca em Python
+# Árvore Binária de Busca em Python e C++
 
 ## Descrição do Projeto
 
-Este projeto implementa uma Árvore Binária de Busca (BST) em Python. O programa permite ao usuário realizar operações básicas, como inserir elementos, pesquisar elementos e exibir os elementos em ordem. O objetivo principal do código é fornecer uma interface simples para interagir com uma árvore binária de busca, utilizando um menu baseado em texto para executar as operações.
+Este projeto implementa uma Árvore Binária de Busca (BST) utilizando Python e C++. O programa permite ao usuário realizar operações básicas, como inserir elementos, pesquisar elementos e exibir os elementos em ordem. O principal objetivo do código é oferecer uma interface simples para interação com uma árvore binária de busca, utilizando um menu baseado em texto para executar as operações.
 
 ## O que são Árvores Binárias de Busca?
 
-Uma Árvore Binária de Busca (BST) é uma estrutura de dados em que cada nó possui no máximo dois filhos: um filho à esquerda e um filho à direita. A BST possui uma propriedade importante: para cada nó, todos os valores dos nós da subárvore à esquerda são menores que o valor do nó, e todos os valores dos nós da subárvore à direita são maiores. Isso permite que as operações de busca, inserção e remoção sejam feitas de maneira eficiente.
+Uma Árvore Binária de Busca (BST) é uma estrutura de dados em que cada nó possui no máximo dois filhos: um filho à esquerda e um filho à direita. A BST possui uma propriedade importante: para cada nó, todos os valores dos nós da subárvore à esquerda são menores que o valor do nó, e todos os valores dos nós da subárvore à direita são maiores. Essa característica permite que as operações de busca, inserção e remoção sejam feitas de maneira eficiente.
 
 ## Características das Árvores Binárias de Busca 
 
